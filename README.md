@@ -18,8 +18,8 @@ Send the bot a command (/u, /y) followed by a Japanese word and it will fetch se
 
 2. Usage of the commands /set_timer_u and /set_timer_y
    
-Use /set_timer_u <seconds> <word> to set a timer for Ineiraisan
-Use /set_timer_y <seconds> <word> to set a timer for Wagahaineko
+Use /set_timer_u [seconds] [word] to set a timer for Ineiraisan
+Use /set_timer_y [seconds] [word] to set a timer for Wagahaineko
 For example, send the following to make the bot fetch and send a random sentence containing the word 友人 every 100 minutes (i.e. 6000 seconds) from the webpage:
 /set_timer_u 6000 友人
 (After setting up the timer job, you could also send /unset_u, /unset_y to cancel it!)
