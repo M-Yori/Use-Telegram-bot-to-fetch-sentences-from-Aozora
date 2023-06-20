@@ -335,7 +335,7 @@ async def set_timer_v(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
                 text += " Old one for Wagahaineko was removed."
             await update.effective_message.reply_text(text)
         except (IndexError, ValueError):
-            await update.effective_message.reply_text("Usage: /set_timer_v <seconds> <word>")
+            await update.effective_message.reply_text("Usage: /set_timer_y <seconds> <word>")
 
 async def unset_u(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Remove the job if the user changed their mind."""
