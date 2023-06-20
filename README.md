@@ -14,7 +14,7 @@ This code file is specifically designed for fetching Japanese sentences from Aoz
 
 1. Usage of the commands /u and /y
    
-Send the bot a command (/u, /y) followed by a Japanese word and it will fetch sentences containing the word from two books for you: /u <word> or /y <word>
+Send the bot a command (/u, /y) followed by a Japanese word and it will fetch sentences containing the word from two books for you: /u [word] or /y [word]
 
 2. Usage of the commands /set_timer_u and /set_timer_y
    
