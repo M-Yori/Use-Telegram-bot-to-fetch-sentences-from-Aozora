@@ -13,9 +13,11 @@ This code file is specifically designed for fetching Japanese sentences from Aoz
 # Functions & Features: (note that in the example file, u represents the Aozora webpage of the book 『陰翳礼讃』, y represents the Aozora webpage of the book 『吾輩は猫である』)
 
 1. Usage of the commands /u and /y
+   
 Send the bot a command (/u, /y) followed by a Japanese word and it will fetch sentences containing the word from two books for you: /u <word> or /y <word>
 
 2. Usage of the commands /set_timer_u and /set_timer_y
+   
 Use /set_timer_u <seconds> <word> to set a timer for Ineiraisan
 Use /set_timer_y <seconds> <word> to set a timer for Wagahaineko
 For example, send the following to make the bot fetch and send a random sentence containing the word 友人 every 100 minutes (i.e. 6000 seconds) from the webpage:
@@ -23,7 +25,9 @@ For example, send the following to make the bot fetch and send a random sentence
 (After setting up the timer job, you could also send /unset_u, /unset_y to cancel it!)
 
 3. Feature: /u yoji; /y yoji; /set_timer_u yoji; /set_timer_y_yoji
+
 A way to fetch 四字熟語! (it also fetches sentences that contain 4 consecutive Chinese characters with no other symbols in between)
 
 4. Feature: /u abab; /y abab; /set_timer_u abab; /set_timer_y abab
+
 A way to fetch words that have a ABAB pattern, like ピカピカ、ドキドキ!
